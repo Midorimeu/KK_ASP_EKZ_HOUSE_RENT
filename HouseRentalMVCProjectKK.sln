@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "HouseRentalMVCProject", "D:\Games\HouseRentalMVCProject\", "{3F722BA4-BE5E-4719-BF50-B399F8BA4217}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.7.2"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_53997"
+		Debug.AspNetCompiler.PhysicalPath = "D:\Games\HouseRentalMVCProject\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_53997\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_53997"
+		Release.AspNetCompiler.PhysicalPath = "D:\Games\HouseRentalMVCProject\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_53997\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "53997"
+		SlnRelativePath = "D:\Games\HouseRentalMVCProject\"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3F722BA4-BE5E-4719-BF50-B399F8BA4217}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F722BA4-BE5E-4719-BF50-B399F8BA4217}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F722BA4-BE5E-4719-BF50-B399F8BA4217}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F722BA4-BE5E-4719-BF50-B399F8BA4217}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D1CA7D8C-6F89-4987-A706-ECA8BECA0C75}
+	EndGlobalSection
+EndGlobal

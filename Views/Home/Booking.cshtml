@@ -1,0 +1,92 @@
+﻿@model  HouseRentalMVCProject.Models.BookingTbl
+@{
+    ViewBag.Title = "Booking";
+}
+
+<div class="contact" id="contact">
+    <div class="container">
+        <div class="w3-heading-all">
+            <h3>Book Now</h3>
+        </div>
+        <div class="agile-contact-grids">
+            <div class="col-md-5 address">
+                <h4>Fill Up Form</h4>
+                <div class="address-row">
+                    <div class="col-md-2 w3-agile-address-left">
+                        <span class="glyphicon glyphicon-home" aria-hidden="true"></span>
+                    </div>
+                    <div class="col-md-10 w3-agile-address-right">
+                        <h5></h5>
+                        <p></p>
+                    </div>
+                    <div class="clearfix"> </div>
+                </div>
+                <div class="address-row">
+                    <div class="col-md-2 w3-agile-address-left">
+                        <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
+                    </div>
+                    <div class="col-md-10 w3-agile-address-right">
+                        <h5></h5>
+                        <p><a href="#"> </a></p>
+                    </div>
+                    <div class="clearfix"> </div>
+                </div>
+                <div class="address-row">
+                    <div class="col-md-2 w3-agile-address-left">
+                        <span class="glyphicon glyphicon-phone" aria-hidden="true"></span>
+                    </div>
+                    <div class="col-md-10 w3-agile-address-right">
+                        <h5></h5>
+                        <p></p>
+                    </div>
+                    <div class="clearfix"> </div>
+                </div>
+            </div>
+            <div class="col-md-7 contact-form">
+                <form action="#" method="post">
+                    @using (Html.BeginForm("Booking", "Home", FormMethod.Post))
+                    {
+                        <table width="600px" height="800px">
+                            <tr>
+                                <td align="center">Booking Id</td>
+                                <td>@Html.TextBoxFor(m => m.bookingId)</td>
+                            </tr>
+                            <tr>
+                                <td align="center">First Name</td>
+                                <td>@Html.TextBoxFor(m => m.firstName)</td>
+                            </tr>
+                            <tr>
+                                <td align="center">Last Name</td>
+                                <td>@Html.TextBoxFor(m => m.lastName)</td>
+                            </tr>
+                            <tr>
+                                <td align="center">gender</td>
+                                <td>@Html.TextBoxFor(m => m.gender)</td>
+                            </tr>
+                            <tr>
+                                <td align="center">House Type</td>
+                                <td>@Html.TextBoxFor(m => m.houseType)</td>
+                            </tr>
+                            <tr>
+                                <td align="center">Rooms</td>
+                                <td>@Html.TextBoxFor(m => m.rooms)</td>
+                            </tr>
+                            <tr>
+                                <td align="center">Rooms</td>
+                                <td>@Html.TextBoxFor(m => m.rooms)</td>
+                            </tr>
+                           
+                            <tr>
+                                <td colspan="2" align="center">
+                                    <input type="submit" class="btnBookNow" value="REGISTER">
+                                </td>
+                            </tr>
+                        </table>
+
+                    }
+                </form>
+            </div>
+            <div class="clearfix"> </div>
+        </div>
+    </div>
+
